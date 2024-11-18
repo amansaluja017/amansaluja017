@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+
+.cointainer {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.99);
+    font-size: 8vmin;
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+
+}
+
+h1 {
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.436);
+    font-size: 12vmin;
+    border-radius: 1rem;
+    border: none;
+}
+
+#myid {
+    color: red;
+    height: 4vmin;
+    width: 16vmin;
+    background-color: aqua;
+    font-size: 2vmin;
+    font-style: oblique;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.99);
+    border-radius: 1rem;
+    border: none;
+}
+
+#myid1 {
+    color: red;
+    height: 4vmin;
+    width: 16vmin;
+    background-color: aqua;
+    font-size: 2vmin;
+    font-style: oblique;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.99);
+    border-radius: 1rem;
+    border: none;
+}
+
+.msg-cointainer{
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4vmin;
+    flex-direction: column;
+
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 10vmin;
+}
+
+.hide {
+    display: none;
+}
+
